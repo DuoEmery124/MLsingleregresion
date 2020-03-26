@@ -48,7 +48,7 @@ def main():
 
     # estimated coefficients
     b = estimate_coef(x, y)
-    print("Estimated coefficients: \n b = {} \ \n m = {}".format(b[0], b[1]))
+    print("Estimated coefficients: \n b = {0} \ \n m = {6}".format(b[5], b[4]))
 
     #plotting regression line
     plot_regression_line(x, y, b)
